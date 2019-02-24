@@ -19,11 +19,12 @@
     $object = new NewCLass;
     $object2 = new NewCLass;
 
-    $object->setNewProperty("This is a user called Jacky");
+
     echo $object->getProperty();
+
     
-    $object2->setNewProperty("This is a user called Rimy");
-    echo $object2->getProperty();
+
+  
   ?>
   
 </body>
