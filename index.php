@@ -1,7 +1,5 @@
 <?php
-
   include 'includes/newclass.inc.php';
-
 ?>
 
 <!DOCTYPE html>
@@ -16,15 +14,13 @@
 </head>
 <body>
   <?php 
-    $object = new NewCLass;
-    $object2 = new NewCLass;
-
-
-    echo $object->getProperty();
-
-    
-
-  
+    //$object = new NewCLass;
+    //unset($object); This is how to destroy the object after you create them 
+    //echo $object; Error message cause you can't converted the Object or Class into sting! you have to use then (__toString() function)
+    //echo $object;
+    //echo $object->getProperty();
+    echo NewClass::staticMethod()."<br>";
+    echo NewClass::secondStaticMethod();
   ?>
   
 </body>
